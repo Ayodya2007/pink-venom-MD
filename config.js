@@ -38,22 +38,23 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['62895347198105', 'Arifzyn', true],
+['6288287722724', 'PutraXD', true],
+['62895347198105', 'Arifzyn', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6289636219593'
-global.nomorown = '62895347198105'
-global.nomorown1 = '62895347198105'
-global.nomorown2 = '62895347198105'
+global.nomorbot = '6288286070389'
+global.nomorown = '6288287722724'
+global.nomorown1 = '6288287722724'
+global.nomorown2 = '6288287722724'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = '𝙰𝚛𝚒𝚏𝚣𝚢𝚗 X 𝚂𝚔𝚢𝙱𝚘𝚝'
-global.namebot = '​𝚂𝚔𝚢𝙱𝚘𝚝 𝙼𝚍'
+global.author = 'Putra X GANZ'
+global.namebot = '​`᯽ Putra_BOTZ ッ`
 global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 𝐒𝐤𝐲𝐁𝗼𝐭 𝐌𝐝'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.wm = '𝐒𝐤𝐲𝐁𝗼𝐭 𝑴𝒅 '
