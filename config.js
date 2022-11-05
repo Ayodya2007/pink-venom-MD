@@ -54,7 +54,7 @@ global.nomorwa = '0'
 
 global.readMore = readMore
 global.author = 'Putra X GANZ'
-global.namebot = '​᯽ Putra_BOTZ ッ`
+global.namebot = '​᯽ Putra_BOTZ ッ'
 global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 𝐒𝐤𝐲𝐁𝗼𝐭 𝐌𝐝'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.wm = '𝐒𝐤𝐲𝐁𝗼𝐭 𝑴𝒅 '
