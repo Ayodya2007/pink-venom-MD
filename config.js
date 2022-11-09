@@ -38,7 +38,7 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6288287722724', 'PutraXD', true],
+['6281372197701', 'PutraXD', true],
 ['62895347198105', 'Arifzyn', true],
 ]
 global.mods = []
@@ -53,8 +53,8 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Putra X GANZ'
-global.namebot = '​᯽ Putra_BOTZ ッ'
+global.author = 'SBT-BOT X Andre'
+global.namebot = '​᯽ SBT-BOT ッ'
 global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 𝐒𝐤𝐲𝐁𝗼𝐭 𝐌𝐝'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.wm = '𝐒𝐤𝐲𝐁𝗼𝐭 𝑴𝒅 '
@@ -63,7 +63,7 @@ global.wm2 = '𝐒𝐤𝐲𝐁𝗼𝐭 𝑴𝒅 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `𝐀𝐫𝐢𝐟𝐳𝐲𝐧 𝐗 𝐒𝐤𝐲𝐁𝗼𝐭`
-global.stickpack = '𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉'
+global.stickpack = 'Kontol x Memek'
 global.stickauth = `© 𝐒𝐤𝐲𝐁𝗼𝐭 MD`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
