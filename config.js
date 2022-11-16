@@ -38,62 +38,62 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6281372197701', 'PutraXD', true],
-['62895347198105', 'Arifzyn', true],
+['6281372197701', 'Andre', true],
+['79916542607', 'Arifzyn', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6288286070389'
-global.nomorown = '6288287722724'
-global.nomorown1 = '6288287722724'
-global.nomorown2 = '6288287722724'
+global.nomorbot = '081334883572'
+global.nomorown = '6281372197701'
+global.nomorown1 = '-'
+global.nomorown2 = '-'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'SBT-BOT X Andre'
-global.namebot = '​᯽ SBT-BOT ッ'
-global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 𝐒𝐤𝐲𝐁𝗼𝐭 𝐌𝐝'
+global.author = 'Akio X 𝙱𝚘𝚝'
+global.namebot = '​Akio 𝙼𝚍'
+global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 AkioBot 𝐌𝐝'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = '𝐒𝐤𝐲𝐁𝗼𝐭 𝑴𝒅 '
+global.wm = 'AkioBot 𝑴𝒅 '
 global.watermark = wm
-global.wm2 = '𝐒𝐤𝐲𝐁𝗼𝐭 𝑴𝒅 '
+global.wm2 = 'AkioBot 𝑴𝒅 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `𝐀𝐫𝐢𝐟𝐳𝐲𝐧 𝐗 𝐒𝐤𝐲𝐁𝗼𝐭`
-global.stickpack = 'Kontol x Memek'
-global.stickauth = `© 𝐒𝐤𝐲𝐁𝗼𝐭 MD`
+global.titlebot = `Andre 𝐗 AkioBot`
+global.stickpack = '𝑨𝒉'
+global.stickauth = `© AkioBot MD`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= '𝐀𝐫𝐢𝐟𝐳𝐲𝐧'
-global.nameown2 = '𝐒𝐤𝐲𝐁𝗼𝐭'
+global.nameown1= 'Andrr'
+global.nameown2 = 'AkioBot'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = '𝐆𝐝𝐚 𝐖𝐤𝐰𝐤'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/Arifzyn19_'
+global.sig = '_'
 global.sgh = 'https://github.com/RifXz19' //github
 global.sgc = 'https://chat.whatsapp.com/KS51Xw91eju8HTv5owtV1z' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/--'
+global.snh = 'ht/channel/--'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '0895347198105'
+global.pdana = '081372197701'
 global.povo = '-'
-global.pgopay = '089636219593'
+global.pgopay = '-'
 global.plinkaja = '-' //link aja
-global.ppulsa = '082112309234'
-global.ppulsa2 = '0895347198105'
-global.psaweria = 'https://saweria.co/Arifzyn'
+global.ppulsa = '-'
+global.ppulsa2 = '-'
+global.psaweria = 'n'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.ListHargaSewa = '├ 5 Hari IDR 3.000\n├ 7 Hari IDR 5.000\n├ 15+5 Hari IDR 10.000\n├ 30 Hari IDR 15.000'
+global.ListHargaSewa = '├ 5 Hari IDR 10.000\n├ 7 Hari IDR 15.000\n├ 15+5 Hari IDR 25.000\n├ 30 Hari IDR 50K'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.LyAtas1 = '☰ ━━━ ❨'
 global.LyAtas2 = '❩ ━━┄┈ •⟅'
@@ -515,7 +515,7 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = '?????????'
-global.urlnya = "https://www.instagram.com/Arifzyn19_"
+global.urlnya = ""
 global.dtc = '???? ?????'
 global.phn = '0895-3471-98105'
 
