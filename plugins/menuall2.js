@@ -40,41 +40,64 @@ let tags = {
   'Baileys': 'Baileys',
   'nocategory': 'No Category',
 }
-let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '║ ▣', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
+let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
 let rus = JSON.parse(readFileSync('./json/emoji.json'))
 let emm = rus.emoji
-
 const defaultMenu = {
   before: `
-╒════════════════════▬▭▬▭  
-║▻ 𝙃𝙞 *%name!* %ucapan ◅
-║
-║ ▣ *Tanggal:* %week, %date
-║ ▣ Waktu:* %time
-║ ▣ *Bot Online:* %uptime (%muptime)
-║ ▣ *Pengguna:* %totalreg Orang
-║ ▣ *Lib:* Baileys-Md
-║ ▣ *Language:* Javascript,Ts-Node
-║ ▣ *Fitur:* %totalfeatures command
-╘════════════════════▬▭▬▭
+╭─────═[ INFO USER ]═─────⋆
+│╭───────────────···
+┴│☂︎ *Name:* %name
+⬡│☂︎ *Limit:* %limit
+⬡│☂︎ *Money:* Rs 99
+⬡│☂︎ *Role:* %role
+⬡│☂︎ *Level:* %level 
+⬡│☂︎ *Xp:* %exp
+┬│☂︎ *Total Xp:* %totalexp
+│╰────────────────···
+┠─────═[ TODAY ]═─────⋆
+│╭────────────────···
+┴│    *${ucapan} %name!*
+⬡│☂︎ *Tanggal:* %week %weton
+⬡│☂︎ *Date:* %date
+⬡│☂︎ *Tanggal Islam:* %dateIslamic
+┬│☂︎ *Waktu:* %time
+│╰────────────────···
+┠─────═[ INFO BOT ]═─────⋆
+│╭────────────────···
+┴│☂︎ *Nama Bot:* Pink Venom MD 
+⬡│☂︎ *Mode:* Public
+⬡│☂︎ *Prefix:* [ %_p ]
+⬡│☂︎ *Baileys:* Multi Device
+⬡│☂︎ *Platform:* %platform
+⬡│☂︎ *Type:* Node.Js
+⬡│☂︎ *Uptime:* %muptime
+┬│☂︎ *Database:* %rtotalreg dari %totalreg
+│╰────────────────···
+╰──────────═┅═──────────
+
+⃝▣──「 *INFO CMD* 」───⬣
+│ *Ⓟ* = Premium
+│ *Ⓛ* = Limit
+▣────────────⬣
 %readmore
-*Script BOT:* _http://wa.me/94772496127_
-*Note:*
-_any error say me🌝_
 `.trimStart(),
-  header: `${cmenut} *%category* ${emm.getRandom()}`,
-  body: `┊${emot} %cmd %islimit %isPremium`,
-  footer: `${cmenuf}`,
+  header: '⃝▣──「 %category 」───⬣',
+  body: '│〆 %cmd %isPremium %islimit',
+  footer: '▣───────────⬣\n',
   after: `${cmenua}`,
 }
 let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-    let { exp, limit, level, role, money, lastclaim, lastweekly, registered, regTime, age, banned, pasangan } = global.db.data.users[who]
+    let { premium, exp, limit, level, role, money, lastclaim, lastweekly, registered, regTime, age, banned, pasangan } = global.db.data.users[who]
     let { min, xp, max } = xpRange(level, global.multiplier)
+    let prems = `${premium ? "Premium" : "Bukan user premium"}`
     let name = await conn.getName(who)
     let pepe = hwaifu.getRandom()
+    let emott = emot
+    let tagg = `@${m.sender.split(`@`)[0]}`
     let pp = await conn.profilePictureUrl(who).catch(_ => './src/avatar_contact.png')
     if (typeof global.db.data.users[who] == "undefined") {
       global.db.data.users[who] = {
@@ -198,10 +221,10 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 123456789101,
+                            itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: '𝘼𝙮𝙤𝙙𝙮𝙖',
+                            message: 'Ayodya',
                             orderTitle: 'MENU',
                             thumbnail: await (await fetch('https://telegra.ph/file/5f8da4a2824300cb993bf.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
@@ -209,33 +232,33 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
                           }
                         }
                       }
-await conn.sendButtonDoc(m.chat, text.trim(), botdate, '𝐎𝐰𝐧𝐞𝐫', '.owner', fkontak, {
+await conn.sendButtonDoc(m.chat, text.trim(), author, '𝐎𝐰𝐧𝐞𝐫', '.owner', fkontak, {
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢 𝙈𝘿',
+                    body: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢-𝙈𝘿',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢 𝙈𝘿',
+    sourceId: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢-𝙈𝘿',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,
     thumbnail: await(await fetch(hwaifu.getRandom())).buffer(),
     thumbnailUrl: sgc,
-    title: '┕┕❮❮ 𝘼𝙡𝙡 𝙈𝙚𝙣𝙪 ❯❯┙┙'  
+    title: '𝐀𝐋𝐋 𝐌𝐄𝐍𝐔 𝐁𝐎𝐓'  
 				}
 			}
 })
   } catch (e) {
-    conn.reply(m.chat, 'error 404', m)
+    conn.reply(m.chat, 'ErroR 404 found', m)
     throw e
   }
 }
 
-handler.command = /^(allmenu)$/i
+handler.command = /^(allmenu2)$/i
 
 handler.exp = 3
 

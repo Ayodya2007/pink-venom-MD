@@ -19,19 +19,19 @@ Last used : *${getTime(last)}*`
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+                    body: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢-𝙈𝘿',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+    sourceId: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢-𝙈𝘿',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,
     thumbnail: await(await fetch(pp)).buffer(),
     thumbnailUrl: sgc,
-    title: 'INFO BOT DASHBOARD'  
+    title: 'INFO DASHBOARD'  
 				}
 			}
 })

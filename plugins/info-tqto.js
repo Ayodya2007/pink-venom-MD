@@ -1,24 +1,20 @@
 let handler = async (m, { conn }) => {
 let info = `*${htki} TQTO ${htka}*
 
-💌 Contributor Script Bot
+Hi 👋 my Friend,,,, 
+im the creater of the Pink Venom MD wa bot..
+if error...say me
 
-*Script Ori :* By Aldi 
-*Recode Script :* By Arifzyn
-*My Project :* 01 Oktober 2022
+*Script Ori :* By Ayodya
+*Recode Script :* Dont recoad sc
+*My Project :*  2022 November 16
 `
 const sections = [
    {
 	title: `✃ THANKS TO`,
 	rows: [
-	    {title: "✨ Arifzyn", rowId: '.arifzyn', description: '╰►Kang Recode sc :v' },
-	    {title: "✨ Kanna", rowId: '.kanna', description: '╰►Stah' },
+	    {title: "✨ ayodya", rowId: '.ayodya', description: '╰►bot creater' },
 	{title: "✨ Nurutomo", rowId: '.Nurutomo', description: '╰►Contributor' },
-	{title: "✨ Adiwajshing", rowId: '.Adiwajshing', description: '╰►Contributor' },
-	{title: "✨ Amirul", rowId: '.Amirul', description: '╰►Contributor' },
-	{title: "✨ Elaina", rowId: '.Bochilgaming', description: '╰►Penyedia Base' },
-	{title: "✨ Syahrul", rowld: '.syahrul', description: '╰► Sepuh' },
-	{title: "✨ WudySoft", rowld: '.wudy', description: '╰► Sepuh' },
 	]
     }, 
 

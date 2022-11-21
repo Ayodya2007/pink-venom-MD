@@ -17,7 +17,7 @@ let imgr = fla.getRandom()
     });
     const sections = [
       {
-        title: `━ ━ ━ ━ 『 Youtube Search 』 ━ ━ ━ ━`,
+        title: `━ ━ ━ ━ 『 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘚𝘦𝘢𝘳𝘤𝘩🔍 』 ━ ━ ━ ━`,
         rows: array
       }
     ]
@@ -25,7 +25,7 @@ let imgr = fla.getRandom()
       text: `*${htki} Youtube Search ${htka}*\n\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐁𝐲 : ${name}\n𝐑𝐞𝐬𝐮𝐥𝐭 𝐅𝐫𝗼𝗺 : ${text}\n\n*𝐂𝐡𝗼𝗼𝐬𝐞 𝐘𝗼𝐮𝐓𝐮𝐛𝐞 𝐒𝐞𝐚𝐫𝐜𝐡* `,
       footer: global.author,
       //title: `⎔───「 ${packname} 」───⎔`,
-      buttonText: `List Search 🎫`,
+      buttonText: `𝗬𝗧 𝗦𝗲𝗮𝗿𝗰𝗵❤`,
       sections
     }
     await conn.sendMessage(m.chat, listMessage, { quoted : m })

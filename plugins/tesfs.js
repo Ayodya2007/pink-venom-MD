@@ -3,13 +3,13 @@ import fs from 'fs'
 let handler = async (m, { conn }) => {
 let sts = wm
 conn.sendButtonDoc(m.chat, '▷ʙᴏᴛ sᴛᴀᴛᴜs◁', sts, 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https//wa.me/6281361281833?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    mediaUrl: 'https//wa.me/94772496127?text=Hᴀʟᴏ+bro',
     mediaType: 2, 
-    description: 'wa.me/6281361281833?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
-    title: "Iɴɪ Fᴀᴄᴇʙᴏᴏᴋ Gᴡ!",
+    description: 'wa.me/94772496127?text=Hᴀʟᴏ+bro',
+    title: "Fᴀᴄᴇʙᴏᴏᴋ Prank!",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: 'https://facebook.com/sadtime098'
+    sourceUrl: 'https://facebook.com/Ayodyaaaaaa9999'
      }}
   })
 }

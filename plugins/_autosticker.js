@@ -7,12 +7,12 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 
 let stiker = await sticker(null, global.API(`${pickRandom(stikerhuuu)}`), global.packname, global.author)
-    if (stiker) return await conn.sendFile(m.chat, stiker, 'sticker.webp', '', m, null, { fileLength: 100, contextInfo: {
+    if (stiker) return await conn.sendFile(m.chat, stiker, 'sticker.webp', '', m, null, { fileLength: 1000000, contextInfo: {
           externalAdReply :{
           showAdAttribution: true,
     mediaUrl: sgc,
     mediaType: 2,
-    description: '𝐀𝐫𝐢𝐟𝐳𝐲𝐧 𝑿 𝐒𝐤𝐲𝐁𝗼𝐭', 
+    description: '𝐀yodya × Pink Venom MD 🥶', 
     title: 'Hai, ' + name + ' ' + ucapan,
     body: botdate,
     thumbnail: await(await fetch(pp)).buffer(),
@@ -23,7 +23,7 @@ let stiker = await sticker(null, global.API(`${pickRandom(stikerhuuu)}`), global
    
 }
 
-handler.customPrefix = /^(hu|huu|huuu|huuuu|huuuuu|ok|oke|ook|okee|okk|nice|nis)$/i
+handler.customPrefix = /^(hu|huu|huuu|huuuu|huuuuu|ok|oke|ook|okee|okk|nice|nis|hi|mk|wait|bot|me|list)$/i
 handler.command = new RegExp
 
 export default handler

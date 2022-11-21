@@ -8,7 +8,7 @@ participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@s.whatsapp.net" } :
 },
 "message": {
 "extendedTextMessage": {
-"text": "Semoga Harimu Senin Terus",
+"text": "hiiiii Bang Bang",
 "previewType": "NONE",
 "contextInfo": {
 "stanzaId": "3EB0382EDBB2",
@@ -21,7 +21,7 @@ participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@s.whatsapp.net" } :
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 						for (let i = 0; i < jumlah; i++) {
-							conn.sendMessage(m.chat, { react: { key: m.key, text: '😁'}}).then( res => conn.sendMessage(num, { text: 'WA GB ANJEENG' }, { quoted: vyn }))
+							conn.sendMessage(m.chat, { react: { key: m.key, text: '😁'}}).then( res => conn.sendMessage(num, { text: 'Boommm' }, { quoted: vyn }))
 							await sleep(toMs(waktu))
 						}
             }

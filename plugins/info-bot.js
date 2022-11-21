@@ -54,9 +54,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let speed = neww - old
   let cap = `*––––––『 BOT INFO 』––––––*
 ${readMore}
-🤖 ɴᴀᴍᴇ: SkyBot
-🧩 ᴠᴇʀsɪᴏɴ: 1.3.0
-📚 ʟɪʙʀᴀʀʏ: Simple Bot WhatsApp By Arifzyn 
+🤖 ɴᴀᴍᴇ: Pink Venom MD
+🧩 ᴠᴇʀsɪᴏɴ: v1.0.0
+📚 ʟɪʙʀᴀʀʏ: Simple Bot WhatsApp By Ayodya 
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
 📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
@@ -79,13 +79,13 @@ await conn.sendButtonDoc(m.chat, cap, botdate, 'Owner', usedPrefix + 'owner', fk
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+                    body: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢-𝙈𝘿',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+    sourceId: '𝙋𝙞𝙣𝙠 𝙑𝙚𝙣𝙤𝙢-𝙈𝘿',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,
