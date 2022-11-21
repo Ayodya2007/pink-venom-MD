@@ -119,10 +119,6 @@ function clearTmp() {
     return false
   })
 }
-setInterval(async () => {
-	var a = await clearTmp()
-	console.log(chalk.cyanBright(`successfully clear tmp`))
-}, 180000)
 
 async function connectionUpdate(update) {
   const { connection, lastDisconnect, isNewLogin } = update
@@ -133,12 +129,8 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-  if (connection == 'open') {
-console.log(chalk.yellow('Successfully connected by ' + wm))
 }
-  console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) return this.sendButton(nomorown + '@s.whatsapp.net', 'Successfully connected by ' + wm, botdate, null, [['MENU', '/menu']], null)
-}
+
 
 process.on('uncaughtException', console.error)
 // let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
@@ -168,25 +160,25 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
   
-let welc = `❖━━━[ *어서 오십시오* ]━━━❖
+let welc = `❖━━━[ 𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘛𝘰 𝘎𝘳𝘰𝘶𝘱 ]━━━❖
 Hai, @user
 Selamat datang di group @subject
 
 ${readMore}
-–––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––––
+–––┅┅ 𝙳𝚎𝚜𝚌𝚛𝚒𝚙𝚝𝚒𝚘𝚗 ┅┅––––––
 @desc`
 let lef = 
-`❖━━━[ *나중에 봐요* ]━━━❖
-𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
+`❖━━━[ 𝙱𝚢𝚎 𝚖𝚢 𝚏𝚛𝚒𝚎𝚗𝚍 ]━━━❖
+𝘽𝙮𝙚 *@user* 👋😃`
 
   conn.welcome = welc
   conn.bye = lef
-  conn.spromote = '@user sekarang admin!'
-  conn.sdemote = '@user sekarang bukan admin!'
-  conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
-  conn.sSubject = 'Judul grup telah diubah ke \n@subject'
-  conn.sIcon = 'Icon grup telah diubah!'
-  conn.sRevoke = 'Link group telah diubah ke \n@revoke'
+  conn.spromote = '@user ඔබ adminවරයෙකු නොවේ/you are not an admin'
+  conn.sdemote = '@user ඔබ adminවරයෙකු නොවේ/you are not an admin'
+  conn.sDesc = 'ඔබ adminවරයෙකු නොවේ/you are not an admin \n@desc'
+  conn.sSubject = 'ඔබ adminවරයෙකු නොවේ/you are not an admin \n@subject'
+  conn.sIcon = 'ඔබ adminවරයෙකු නොවේ/you are not an admin!'
+  conn.sRevoke = 'ඔබ adminවරයෙකු නොවේ/you are not an admin \n@revoke'
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
   conn.groupsUpdate = handler.groupsUpdate.bind(global.conn)

@@ -1,12 +1,27 @@
 {
-  "name": "Aldi-Offc",
+  "name": "Ayo-XO",
   "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/hyuura-official",
+  "repository": "https://github.com/ayoser2",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": [
-    "bot",
-    "whatsapp",
-    "multi-device",
-    "whatsapp-bot"
-  ]
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }

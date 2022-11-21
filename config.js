@@ -1,3 +1,8 @@
+/* 
+* 𝘉𝘰𝘤𝘩𝘪 𝘛𝘦𝘢𝘮 ✸✸✸✸✸✸✸
+* 𝘙𝘦𝘤𝘰𝘥𝘦𝘥 𝘉𝘺 ✸✸✸✸✸✸✸ 𝘈𝘺𝘰𝘥𝘺𝘢 𝘝𝘪𝘤𝘩𝘢𝘬𝘴𝘩𝘢𝘯𝘢 ✸✸✸✸✸✸✸
+*/
+
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
@@ -38,69 +43,68 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6281372197701', 'Andre', true],
-['79916542607', 'Arifzyn', true]
+['94772496127', '𝑨𝒚𝒐𝒅𝒚𝒂', true],
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '081334883572'
-global.nomorown = '6281372197701'
-global.nomorown1 = '-'
-global.nomorown2 = '-'
+global.nomorbot = '94772496127'
+global.nomorown = '94772496127'
+global.nomorown1 = '94764716324'
+global.nomorown2 = '94772496127'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Akio X 𝙱𝚘𝚝'
-global.namebot = '​Akio 𝙼𝚍'
-global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 AkioBot 𝐌𝐝'
-global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = 'AkioBot 𝑴𝒅 '
+global.author = '🄿🅸🄽🅺 🅅🅴🄽🅾🄼 🅜ⓓ × 𝗔𝘆𝗼'
+global.namebot = 'ᑭᏆᑎᏦ ᐯᗴᑎᝪᗰ ᗰᗞ'
+global.wm = '𝒈𝒆𝒏𝒆𝒓𝒂𝒕𝒆𝒅 𝒃𝒚 𝑃𝑖𝑛𝑘 𝑉𝑒𝑛𝑜𝑚 𝑀𝐷'
+global.media = 'https://telegra.ph/file/7c116c8abbbc7c2515f4e.jpg<'
+global.wm = '𝑷𝒊𝒏𝒌 𝑽𝒆𝒏𝒐𝒎 𝑴𝑫 '
 global.watermark = wm
-global.wm2 = 'AkioBot 𝑴𝒅 '
-global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
-global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `Andre 𝐗 AkioBot`
-global.stickpack = '𝑨𝒉'
-global.stickauth = `© AkioBot MD`
+global.wm2 = '𝒫i⃟𝗇k⃠ ven⃞𝖔𝗺⃠  𝗠𝗗 '
+global.botdate = `⦷ 𝗗𝗔𝗧𝗘: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+global.bottime = `𝗧 𝗜 𝗠 𝗘: ${wktuwib}`
+global.titlebot = `𝐀𝑦𝚘𝒅𝘺𝗮 𝐗 𝒫i⃟𝗇k⃠ ven⃞𝖔𝗺⃠  𝑴𝑫`
+global.stickpack = 'Ayodya'
+global.stickauth = `© 𝒫i⃟𝗇k⃠ ven⃞𝖔𝗺⃠  𝗠𝗗`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Andrr'
-global.nameown2 = 'AkioBot'
+global.nameown1= 'ᴘɪɴᴋ ᴠᴇɴᴏᴍ ᵐᵈ'
+global.nameown2 = '🇦 🇾 🇴 🇩 🇾 🇦 '
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.Linkgc = 'Bentar'
-global.lynk = '𝐆𝐝𝐚 𝐖𝐤𝐰𝐤'
+global.Linkgc = 'https://chat.whatsapp.com/IzffPBQVs37HsySqOcxDZG'
+global.lynk = '𝗕𝗢𝗧 𝗞𝗜𝗡𝗚𝗗𝗢𝗠'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = '_'
-global.sgh = 'https://github.com/RifXz19' //github
-global.sgc = 'https://chat.whatsapp.com/KS51Xw91eju8HTv5owtV1z' //group whatsapp
+global.sig = '𝗢𝗻 𝗲𝗱𝗶𝘁𝗶𝗻𝗴 𝗠𝗼𝗱𝗲_'
+global.sgh = '𝗢𝗻 𝗲𝗱𝗶𝘁𝗶𝗻𝗴 𝗠𝗼𝗱𝗲' //github
+global.sgc = 'https://chat.whatsapp.com/IzffPBQVs37HsySqOcxDZG' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'ht/channel/--'
+global.snh = 'https://youtube.com/channel/--'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '081372197701'
+global.pdana = '94764716324'
 global.povo = '-'
-global.pgopay = '-'
+global.pgopay = '94772496127'
 global.plinkaja = '-' //link aja
-global.ppulsa = '-'
-global.ppulsa2 = '-'
-global.psaweria = 'n'
+global.ppulsa = '94772496127'
+global.ppulsa2 = '94772496127'
+global.psaweria = 'https://saweria.co/🅐🅨🅞🅓🅨🅐'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.ListHargaSewa = '├ 5 Hari IDR 10.000\n├ 7 Hari IDR 15.000\n├ 15+5 Hari IDR 25.000\n├ 30 Hari IDR 50K'
+global.ListHargaSewa = '├ 5 Hari IDR 3.000\n├ 7 Hari IDR 5.000\n├ 15+5 Hari IDR 10.000\n├ 30 Hari IDR 15.000'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.LyAtas1 = '☰ ━━━ ❨'
 global.LyAtas2 = '❩ ━━┄┈ •⟅'
 global.Ly = '┃'
 global.lybwh = '┗━━┈┈ ⳻⳻'
-global.sym = '◈▻'
-global.sym2 = '➭'
+global.sym = '✘▻'
+global.sym2 = '❏➭'
 global.dmenut = 'ଓ═┅═━–〈' //top
 global.dmenub = '┊↬' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
@@ -116,15 +120,15 @@ global.mm1 = '⫹⫺ ╳╶╼╶╶╶╶┈ ⎝'
 global.mm2 = '⎞ ┈╴╴╴╴╾╴╳ ⫹⫺'
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
-global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
-global.lolm = 'Ⓛ' //LOGO LIMIT/FREE ON MENU.JS
+global.lopr = '🅟' //LOGO PREMIUM ON MENU.JS
+global.lolm = '🅛' //LOGO LIMIT/FREE ON MENU.JS
 global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.stiker_wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.eror = 'Mohon Maaf Server Kami Sedang Error!'
+global.stiker_wait = '▰▰▰▰▰▰▱▱ 82% 𝚠𝚊𝚒𝚝!!'
+global.wait = '▰▰▰▰▰▰▱▱ 80% 𝚠𝚊𝚒𝚝!!'
+global.eror = 'Error 404!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -242,6 +246,7 @@ global.APIs = { // API Prefix
   violetics : 'https://violetics.pw',
   ziy : 'https://ziy.herokuapp.com',
   males : 'https://malesin.xyz'
+  lol: 'https://api.lolhuman.xyz'
 }
 
 //⳹ NOTE !! EXAMPLE ➢ Name Api: 'website api'
@@ -261,6 +266,8 @@ global.APIKeys = { // APIKey Here
   'https://hardianto.xyz': 'hardianto',
   'https://violetics.pw': 'beta',
   'https://ziy.herokuapp.com' : 'xZiyy'
+  'https://api.lolhuman.xyz': 'apikeylu'
+
 }
 //⳹ NOTE !! EXAMPLE ➢ 'https://WebsiteApi': 'Apikey'
 
@@ -274,10 +281,10 @@ global.drtf = 'text/rtf'
 //OPTIONS
 global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
 global.premnsfw = true // Nsfw Mode Premium?
-global.thumb = 'https://telegra.ph/file/d228cf9e49e7413568a1c.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/d228cf9e49e7413568a1c.jpg'
+global.thumb = 'https://telegra.ph/file/66582a520db197f8193cb.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/7c116c8abbbc7c2515f4e.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://telegra.ph/file/d228cf9e49e7413568a1c.jpg']
+global.thumbs = ['https://telegra.ph/file/994910179f5b205e1da31.jpg']
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
   'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
@@ -285,8 +292,8 @@ global.thumbnailUrl = [
   'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
   'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
 ]
-global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/e72de2cbba03f58eba7d1.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/7c116c8abbbc7c2515f4e.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/994910179f5b205e1da31.jpg' //ini juga ganti 
 global.flaaa2 = [
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=",
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=",
@@ -507,17 +514,17 @@ global.hloli = ['https://telegra.ph/file/872c360a7104d86752650.jpg', 'https://te
 global.hneko = ['https://telegra.ph/file/805a37b1e9a963e7d7ecf.jpg', 'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg','https://telegra.ph/file/b6905b77e6c7732592a13.jpg', 'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png', 'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
 global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg', 'https://telegra.ph/file/cc8255d5b989eef587af2.jpg','https://telegra.ph/file/30d2e7375996abd9cfee3.jpg', 'https://telegra.ph/file/78980c90c44a95a1d30fa.jpg', 'https://telegra.ph/file/2ac5d8ccf23e73eaa5bfa.jpg']
 global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://telegra.ph/file/b6905b77e6c7732592a13.jpg','https://telegra.ph/file/9da45a352eb4c40e5d641.jpg', 'https://telegra.ph/file/59e78846ee365975ee6e3.jpg','https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg','https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
-global.welcom = ['https://telegra.ph/file/35f17bb371d308504bc46.jpg']
-global.godbye = ['https://telegra.ph/file/b44e48066aed4fb7ad291.jpg']
+global.welcom = ['https://telegra.ph/file/d8e56d6275e1aa39677f8.jpg']
+global.godbye = ['https://telegra.ph/file/638deaa27e8d27d14d264.jpg']
 
 global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://telegra.ph/file/05c1b22ee83bcd7723b4d.jpg','https://telegra.ph/file/1d886f66a44871205335f.jpg','https://telegra.ph/file/54d19a9094dc509370bf9.jpg','https://telegra.ph/file/e649475bcde78a9977ee5.jpg','https://telegra.ph/file/32ba20b6139b129c559c8.jpg','https://telegra.ph/file/948434cda49e4af5d9f11.jpg','https://telegra.ph/file/6f353c68533283fe79871.jpg','https://telegra.ph/file/de268ca9b01101acf2b8a.jpg','https://telegra.ph/file/fc6c5b2ae9a20c4256e7f.jpg', 'https://telegra.ph/file/efb70bb0988640f841742.jpg', 'https://telegra.ph/file/77d03fff530a2bcff3bf7.jpg','https://telegra.ph/file/6e4623464a659dd8d902b.jpg','https://telegra.ph/file/685aa39f0cb0f2c4fd85b.jpg','https://telegra.ph/file/10454b9ad693e1eefea58.jpg','https://telegra.ph/file/7de8ce5c290c3d8be0856.jpg','https://telegra.ph/file/8d7c4eadb7a4722747074.jpg','https://telegra.ph/file/ccc5f8eaac0f30919ef6c.jpg','https://telegra.ph/file/95f4b43439d7888f15ea5.jpg','https://telegra.ph/file/9c2a750db555bd2fad1f3.jpg', 'https://telegra.ph/file/efc5f7e637744fd6bfec2.jpg','https://telegra.ph/file/3a5231aade245665633bd.jpg','https://telegra.ph/file/2ecfc76feb26ec1eab99b.jpg','https://telegra.ph/file/dabb70983b4e833d98344.jpg','https://telegra.ph/file/75193a893e38fc580afe6.jpg','https://telegra.ph/file/217aa0f4ec76273808aa4.jpg','https://telegra.ph/file/8a35d3446b97ae22c7b23.jpg','https://telegra.ph/file/092df720701575a7ceaaa.jpg','https://telegra.ph/file/a65184a676cd648de34c3.jpg',
 'https://telegra.ph/file/180e28807e78419d45537.jpg','https://telegra.ph/file/140eff27be983e0cd6781.jpg','https://telegra.ph/file/1581b791e16d0029e16b5.jpg','https://telegra.ph/file/6a4b36372b4f265bae3bc.jpg','https://telegra.ph/file/093caff422f194f00bc6c.jpg','https://telegra.ph/file/2294b7ab49eca8a8046b2.jpg','https://telegra.ph/file/869224d1c417e8b5c8ff1.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg','https://telegra.ph/file/1889878933264d16c58bf.jpg','https://telegra.ph/file/735aeb47d9c4aa87aaaf3.jpg','https://telegra.ph/file/fcf861516db09dda164e0.jpg','https://telegra.ph/file/355d96d7e06d109435f67.jpg']
 
 
 global.dtu = '?????????'
-global.urlnya = ""
+global.urlnya = "https://www.instagram.com/_"
 global.dtc = '???? ?????'
-global.phn = '0895-3471-98105'
+global.phn = '𝖕𝖎𝖓𝖐𝖛𝖊𝖓𝖔𝖒𝖒𝖉'
 
 
 //?? 肓??????帕 ? JNGN DI UBAH ? 帕??????肓 ??

@@ -1,7 +1,7 @@
 {
-    "name": "SkyBot",
+    "name": "Pink Venom MD",
     "version": "3.0.0",
-    "description": "WhatsApp BOT By Arifzyn",
+    "description": "WhatsApp BOT By Ayodya",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -22,16 +22,16 @@
         "whatsapp",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/hyuura-official",
+    "homepage": "https://github.com/Ayodya2007",
     "author": {
         "name": "Aldi"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hyuura-official"
+        "url": "git+https://github.com/Ayodya2007"
     },
     "bugs": {
-        "url": "https://github.com/hyuura-official"
+        "url": "https://github.com/Ayodya2007"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
