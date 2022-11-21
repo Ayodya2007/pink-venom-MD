@@ -246,7 +246,6 @@ global.APIs = { // API Prefix
   violetics : 'https://violetics.pw',
   ziy : 'https://ziy.herokuapp.com',
   males : 'https://malesin.xyz'
-  lol: 'https://api.lolhuman.xyz'
 }
 
 //⳹ NOTE !! EXAMPLE ➢ Name Api: 'website api'
