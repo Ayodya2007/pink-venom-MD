@@ -1,4 +1,4 @@
-let limit = 80
+let limit = 800
 import fetch from 'node-fetch'
 import { youtubeSearch, youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
   let chat = global.db.data.chats[m.chat]
   const isY = /y(es)/gi.test(args[1])
   const { thumbnail, video: _video, title} = await youtubedlv2(args[0]).catch(async _ => await youtubedl(args[0])).catch(async _ => await youtubedlv3(args[0]))
-  const limitedSize = (isPrems || isOwner ? 99 : limit) * 1024
+  const limitedSize = (isPrems || isOwner ? 249 : limit) * 1024
   let video, source, res, link, lastError, isLimit
   for (let i in _video) {
     try {
@@ -39,7 +39,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htki} YOUTUBE ${htka}*
 
 *${htjava} Title:* ${title}
-*${htjava} Quality:* 360p
+*${htjava} Quality:* Auto
 *${htjava} Filesize:* ${video.fileSizeH}
 `.trim(), m, false, {
     ..._thumb,
@@ -52,7 +52,7 @@ handler.command = /^yt(v|mp4)?$/i
 
 handler.exp = 0
 handler.register = false
-handler.limit = true
+handler.limit = false
 
 
 export default handler

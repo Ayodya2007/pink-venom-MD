@@ -1,14 +1,1 @@
-let handler = async (m, { conn, command, args, usedPrefix }) => {
-    if (!args[0]) return m.reply('𝗲𝗿𝗿𝗼𝗿 ❨404❩')
-    let cap = `Hai @${m.sender.split(`@`)[0]}
-Silakan Pilih Di Bawah !`
-    conn.sendButton(m.chat, cap, author, [
-    ['❮❮ 𝗩𝗶𝗱𝗲𝗼 ❯❯', usedPrefix + 'ytv ' + args[0]],
-    ['❮❮ 𝗔𝘂𝗱𝗶𝗼 ❯❯', usedPrefix + 'yta ' + args[0]]
-    ], m, { mentions: await conn.parseMention(cap) } )
-}
-handler.command = /^(ytplay)$/i
-handler.help = ['ytplay']
-handler.tags = ['downloader']
-
-export default handler
+const _0x29164d=_0x28e6;function _0x28e6(_0x20ca08,_0x4bb9e9){const _0x3206c3=_0x3206();return _0x28e6=function(_0x28e668,_0xcd703){_0x28e668=_0x28e668-0xb8;let _0x5c05c6=_0x3206c3[_0x28e668];return _0x5c05c6;},_0x28e6(_0x20ca08,_0x4bb9e9);}(function(_0x2be745,_0x59de56){const _0x22c64c=_0x28e6,_0x172e7c=_0x2be745();while(!![]){try{const _0x31fbee=parseInt(_0x22c64c(0xc4))/0x1*(parseInt(_0x22c64c(0xcc))/0x2)+parseInt(_0x22c64c(0xc5))/0x3*(-parseInt(_0x22c64c(0xc6))/0x4)+parseInt(_0x22c64c(0xcf))/0x5+-parseInt(_0x22c64c(0xbe))/0x6*(-parseInt(_0x22c64c(0xbc))/0x7)+-parseInt(_0x22c64c(0xb8))/0x8+parseInt(_0x22c64c(0xc9))/0x9+-parseInt(_0x22c64c(0xce))/0xa;if(_0x31fbee===_0x59de56)break;else _0x172e7c['push'](_0x172e7c['shift']());}catch(_0x878e8b){_0x172e7c['push'](_0x172e7c['shift']());}}}(_0x3206,0x311fd));function _0x3206(){const _0x140ab5=['\x0aSilakan\x20Pilih\x20Di\x20Bawah\x20!','1943928PsULml','split','command','❮❮\x20𝗩𝗶𝗱𝗲𝗼\x20❯❯','471037eKsAPj','parseMention','18IyiuGN','𝗲𝗿𝗿𝗼𝗿\x20❨404❩','sender','ytv\x20','reply','help','1GTVhrd','357mhYgoK','3980rgbsLP','Hai\x20@','❮❮\x20𝗔𝘂𝗱𝗶𝗼\x20❯❯','1681344DGSLBq','tags','ytplay','474478fQWLzO','downloader','1433920IAAuwC','400365eFHMBU'];_0x3206=function(){return _0x140ab5;};return _0x3206();}let handler=async(_0xf71299,{conn:_0x3b5c5e,command:_0x53174f,args:_0x4a59cc,usedPrefix:_0x4b6da9})=>{const _0x225451=_0x28e6;if(!_0x4a59cc[0x0])return _0xf71299[_0x225451(0xc2)](_0x225451(0xbf));let _0x2954b1=_0x225451(0xc7)+_0xf71299[_0x225451(0xc0)][_0x225451(0xb9)]('@')[0x0]+_0x225451(0xd0);_0x3b5c5e['sendButton'](_0xf71299['chat'],_0x2954b1,author,[[_0x225451(0xbb),_0x4b6da9+_0x225451(0xc1)+_0x4a59cc[0x0]],[_0x225451(0xc8),_0x4b6da9+'yta\x20'+_0x4a59cc[0x0]]],_0xf71299,{'mentions':await _0x3b5c5e[_0x225451(0xbd)](_0x2954b1)});};handler[_0x29164d(0xba)]=/^(ytplay)$/i,handler[_0x29164d(0xc3)]=[_0x29164d(0xcb)],handler[_0x29164d(0xca)]=[_0x29164d(0xcd)];export default handler;
