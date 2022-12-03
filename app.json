@@ -1,8 +1,8 @@
 {
-  "name": "Ayo-XO",
-  "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/ayoser2",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "name": "Pink Venom MD",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/Ayodya2007/pink-venom-MD",
+  "logo": "https://telegra.ph/file/12493a57962e154fb6056.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
@@ -12,7 +12,7 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
     {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
