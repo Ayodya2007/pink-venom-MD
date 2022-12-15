@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://telegra.ph/file/9a97909fe0d4ffecb754e.mp4" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <vid src="https://telegra.ph/file/9a97909fe0d4ffecb754e.mp4" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Pink Venom MD V1</h1>
 
